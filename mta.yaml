@@ -25,6 +25,15 @@ modules:
           srv-url: ${default-url}
     requires:
       - name: cap-bookshop-auth
+      - name: cap-bookshop-db
+
+  - name: cap-bookshop-db-deployer
+    type: hdb
+    path: gen/db
+    parameters:
+      buildpack: nodejs_buildpack
+    requires:
+      - name: cap-bookshop-db
 
 resources:
   - name: cap-bookshop-auth
@@ -40,3 +49,8 @@ resources:
           credential-types:
             - "binding-secret"
             - "x509"
+  - name: cap-bookshop-db
+    type: com.sap.xs.hdi-container
+    parameters:
+      service: hana
+      service-plan: hdi-shared
