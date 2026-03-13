@@ -1,7 +1,5 @@
 using my.bookshop as my from '../db/schema';
 
-service CatalogService {
-    // @readonly
-    @odata.draft.enabled
+service CatalogServiceV2 {
     entity Books as projection on my.Books;
 }
