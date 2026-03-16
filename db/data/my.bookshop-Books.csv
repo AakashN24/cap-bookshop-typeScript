@@ -1,3 +1,11 @@
-ID,title,stock
-1,Wuthering Heights,100
-2,Jane Eyre,500
+ID,title,description,price,stock,ISBN,publishedAt,language,author_ID,genre_ID,currency_code
+1,1984,A dystopian novel about totalitarian surveillance and control.,12.99,150,9780451524935,1949-06-08,en,1,3,USD
+2,Animal Farm,An allegorical novella about political corruption and power.,9.99,200,9780451526342,1945-08-17,en,1,3,USD
+3,Harry Potter and the Philosopher's Stone,A young boy discovers he is a wizard and enters a magical school.,14.99,300,9780747532743,1997-06-26,en,2,4,GBP
+4,Harry Potter and the Chamber of Secrets,Harry returns for his second year at Hogwarts and faces a new threat.,14.99,280,9780747538493,1998-07-02,en,2,4,GBP
+5,Crime and Punishment,A psychological novel about a student who commits murder.,11.99,120,9780140449136,1866-01-01,ru,3,6,EUR
+6,The Brothers Karamazov,A philosophical novel exploring faith doubt and morality.,13.99,90,9780140449242,1880-11-01,ru,3,6,EUR
+7,Murder on the Orient Express,Detective Poirot investigates a murder on a snowbound train.,10.99,175,9780007119318,1934-01-01,en,4,5,GBP
+8,And Then There Were None,Ten strangers are lured to an island and murdered one by one.,10.99,160,9780007136834,1939-11-06,en,4,5,GBP
+9,One Hundred Years of Solitude,An epic saga of the Buendía family across seven generations.,13.99,110,9780060883287,1967-05-30,es,5,7,USD
+10,Love in the Time of Cholera,A tale of unrequited love spanning over fifty years.,12.99,95,9780140157239,1985-01-01,es,5,7,USD
