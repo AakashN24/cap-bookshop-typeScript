@@ -6,18 +6,19 @@ using {
   Currency
 } from '@sap/cds/common';
 
-entity Books : managed, cuid {
-  title       : String(111);
-  description : String(1111);
-  price       : Decimal(9, 2);
-  stock       : Integer;
-  ISBN        : String(13);
-  publishedAt : Date;
-  language    : String(2);
-  author      : Association to Authors;
-  genre       : Association to Genres;
-  // publisher   : Association to Publishers;
-  currency    : Currency;
+entity Books : managed {
+  key ID          : Integer;
+      title       : String(111);
+      description : String(1111);
+      price       : Decimal(9, 2);
+      stock       : Integer;
+      ISBN        : String(13);
+      publishedAt : Date;
+      language    : String(2);
+      author      : Association to Authors;
+      genre       : Association to Genres;
+      // publisher   : Association to Publishers;
+      currency    : Currency;
 }
 
 entity Genres {
